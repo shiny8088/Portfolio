@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Shiny S - Computer Science & Data Science Portfolio">
+    <meta name="author" content="Shiny S">
+
+    <title>Shiny S - Portfolio</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/tooplate-style.css">
+    
+    <style>
+      /* Social Icons Styles */
+      .social-icons-container {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 30px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+      }
+
+      .social-icons-container:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+      }
+
+      .social-icons-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 0 auto;
+        max-width: 200px;
+      }
+
+      .social-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-size: 28px;
+        color: white;
+        transition: all 0.3s ease;
+        margin: 0 auto;
+      }
+
+      .social-icon:hover {
+        transform: scale(1.1) translateY(-5px);
+      }
+
+      .social-icon.github {
+        background: #333;
+      }
+
+      .social-icon.linkedin {
+        background: #0077b5;
+      }
+
+      .social-icon.instagram {
+        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+      }
+
+      .social-icon.leetcode {
+        background: #ffa116;
+      }
+
+      .social-links-text {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 992px) {
+        .social-icons-container {
+          margin-top: 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Shiny S</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hello, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Shiny S</span>
+                                    <span class="animated-item">Data Scientist</span>
+                                </div>
+                        </h1>
+
+                        <p>A passionate Computer Science and Data Science student with experience in UX design, system architecture, and IoT development. Skilled in problem-solving, machine learning, and creating innovative solutions.</p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="https://drive.google.com/file/d/1rmaOUfb_WSWyMoTA8zcd-DHtEL2DjZvc/view?usp=drivesdk" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
+                          <a href="shinysundaramoorthy08@gmail.com" class="btn custom-btn custom-btn-bg custom-btn-link">Gmail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="software engineer illustration">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
+
+                      <div class="col-lg-8 mx-auto">
+                        <h2>My Recent Projects</h2>
+                      </div>
+
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <div class="project-info">
+                            <h3 class="mt-3">Smart Water Tank Control using IoT</h3>
+                            <p style="padding: 1em;">An automated water tank system using ESP32, MicroPython, and magnetic reed sensors to detect water levels and switch tanks automatically.</p>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <h3 class="mt-3">Decentralized Proof of Ownership</h3>
+                            <p>A blockchain system with smart contracts to prove ownership and trade copyrights using a proof-of-stake mechanism.</p>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <h3 class="mt-3">Web Mining for Misinformation Detection</h3>
+                            <p>Research on fake news detection in Tamil language using web mining techniques, FastText analysis, and cosine similarity verification.</p>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <h3 class="mt-3">Tamil Handwritten Spelling Error Correction</h3>
+                            <p>A system to digitize Tamil handwritten text using neural networks with context-aware spelling error correction using NLP.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experience</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2025</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>UX & System Design Intern</span><small>7 Stones Digital (Remote), Chennai</small></h3>
+                                  <p>Designed the UX for the kitchen management module in an ERP system using Figma, ensuring an intuitive and user-friendly interface. Developed the system architecture and database schema, optimizing data flow for improved performance and scalability.</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2025</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Design Thinking Workshop Winner</span></h3>
+                                <p>Winner of the Design Thinking Workshop for creativity and problem-solving skills.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2024</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Hackathon Participant</span></h3>
+                                <p>Participated in CENTRAL HACK and Caterpillar-Hackathon, applying technical skills to solve real-world challenges.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Education & Certifications</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2026</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Integrated MTech in Computer Science and Engineering (Data Science)</span><small>Vellore Institute of Technology, Vellore</small></h3>
+                                  <p>Cumulative GPA: 8.52/10.00 (Expected graduation: 2026)</p>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2021</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Higher Secondary Education</span><small>Chezhian Matric Hr. Sec. School, Tiruvannamalai</small></h3>
+                                <p>12th Grade: 91.16%</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2019</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3><span>Secondary Education</span><small>Chezhian Matric Hr. Sec. School, Tiruvannamalai</small></h3>
+                                <p>10th Grade: 87%</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-5 bg-light" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="mb-5">My Skills</h2>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Programming Languages</h4>
+                <ul class="list-unstyled">
+                  <li>Java</li>
+                  <li>C/C++</li>
+                  <li>Python</li>
+                  <li>R</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Data Science</h4>
+                <ul class="list-unstyled">
+                  <li>Machine Learning & AI</li>
+                  <li>Tableau, PowerBI</li>
+                  <li>Plotly, Matplotlib</li>
+                  <li>Data Structure and Algorithms</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title">Platforms & Systems</h4>
+                <ul class="list-unstyled">
+                  <li>Amazon Web Services (AWS)</li>
+                  <li>Linux (Kernel Basics, Process Management)</li>
+                  <li>GitHub</li>
+                  <li>UX & System Design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Certifications</h4>
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul class="list-unstyled">
+                      <li>Harvard CS50's AI with Python (2025)</li>
+                      <li>Power BI Job Simulation (2025)</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="list-unstyled">
+                      <li>Amazon AWS Certified Cloud Practitioner (2024)</li>
+                      <li>IBM Introduction to Cloud Computing (2024)</li>
+                      <li>Livewire Course on Python (2023)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125102.02006287833!2d79.02145675!3d12.2247178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baced3c9f8aaaad%3A0x81f023c1c049d9dd!2sTiruvannamalai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1711301234567!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white">Get in touch</h3>
+                  <p class="footer-text mb-0">+91 9342043163</p>
+                  <p><a href="mailto:shinysundaramoorthy08@gmail.com">shinysundaramoorthy08@gmail.com</a></p>
+                </div>
+            </div>
+          </div>
+
+          <!-- Social Icons Column -->
+          <div class="col-lg-5 col-12 mt-lg-0 mt-5">
+            <div class="social-icons-container text-center">
+              <h3 class="mb-4 text-white">Connect With Me</h3>
+              
+              <div class="social-icons-grid">
+                <!-- GitHub -->
+                <a href="https://github.com/shiny8088">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+              </a>
+                
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/shiny-sundaramoorthy-744268284/">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                </svg>
+                </a>
+
+                
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/shine_s?igsh=MWk1ZTB6ZWY0ZmJrdQ==" target="_blank" class="social-icon instagram" data-toggle="tooltip" title="Instagram">
+                  <i class="uil uil-instagram"></i>
+                </a>
+                
+                <!-- LeetCode -->
+                <a href="https://leetcode.com/u/Shiny79/" target="_blank" class="social-icon leetcode" data-toggle="tooltip" title="LeetCode">
+                  <i class="uil uil-code"></i>
+                </a>
+              </div>
+              
+              <div class="social-links-text mt-4">
+                <p>Feel free to reach out for collaborations or just to say hello!</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">© 2025 Shiny S. All rights reserved.</p>
+                    </div>
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
